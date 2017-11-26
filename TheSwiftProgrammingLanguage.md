@@ -114,7 +114,7 @@ vat n = A.Kind.Second
 ~~~swift
 var n: Int = 123
 let pie: Float = 3.14
-~~~
+~~~
 
 ### 計算型変数
 
