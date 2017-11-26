@@ -96,3 +96,36 @@ let s: String = "Hello, World!"
 typealias Byte = UInt8
 var b: byte = 64
 ~~~
+
+### ネスト型
+
+~~~swift
+class A {
+    enum Kind {
+        case First, Second
+    }
+}
+
+vat n = A.Kind.Second
+~~~
+
+## 変数と定数
+
+~~~swift
+var n: Int = 123
+let pie: Float = 3.14
+~~~
+
+### 計算型変数
+
+~~~swift
+var str: String
+var name: String {
+    get {
+        return str
+    }
+    set(name) {
+        str = name
+    }
+}
+~~~
