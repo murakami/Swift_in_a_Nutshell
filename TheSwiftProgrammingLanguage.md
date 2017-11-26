@@ -86,7 +86,7 @@ import func Darwin.sqrt
 ### 文字と文字列
 
 ```swift
-let c: Character = "A"
+let c: Character = "A"
 let s: String = "Hello, World!"
 ```
 
@@ -128,4 +128,4 @@ var name: String {
         str = name
     }
 }
-~~~
+~~~
