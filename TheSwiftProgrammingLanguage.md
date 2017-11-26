@@ -15,28 +15,84 @@
 ## 基本的な特徴
 ### 注釈
 
-    // 注釈
+~~~swift
+// 注釈
+~~~
 
 ---
 
-    /* 注釈 */
+~~~swift
+/* 注釈 */
+~~~
 
 ### セミコロン
 構文を分けるのに利用する。
 
-    x = 1; y = 2
+~~~swift
+x = 1; y = 2
+~~~
 
 ### 空白
 字句を分けるなどで利用する。
 
-    x=1
-    y = 2
+~~~swift
+x=1
+y = 2
+~~~
 
 ### モジュール
 
-    import Cocoa
-    import Foundation.NSDate
-    import func Darwin.sqrt
+~~~swift
+import Cocoa
+import Foundation.NSDate
+import func Darwin.sqrt
+~~~
 
 ## 型
 
+|名前|内容|
+|:--|:--|
+|Bool|真偽値 (true, false)|
+|Int|符号あり整数型|
+|UInt|符号なし整数型|
+|Float|単精度(32bit)浮動小数点|
+|Double|倍精度(64bit)浮動小数点｜
+|Character|Unicode文字|
+|String|文字列|
+|Int8|符号あり8bit整数型|
+|UInt8|符号なし8bit整数型|
+|Int16|符号あり16bit整数型|
+|UInt16|符号あり16bit整数型|
+|Int32|符号あり32bit整数型|
+|UInt32|符号なし32bit整数型|
+|Int64|符号あり64bit整数型|
+|UInt64|符号なし64bit整数型|
+
+### 数値
+
+|接頭語|説明|例|
+|:--|:--|:--|
+|-|10進数|256, 1024, 3.14, 1.7e2|
+|0b|2進数|0b10001011|
+|0o|8進数|0o0317|
+|0x|16進数|0xEF27|
+
+~~~swift
+2.7e4
+0x10.4p2
+1_123_123
+~~~
+
+### 文字と文字列
+
+```swift
+let c: Character = "A"
+let s: String = "Hello, World!"
+```
+
+### 付属型
+
+~~~swift
+typealias Byte = UInt8
+var b: byte = 64
+~~~
