@@ -132,7 +132,29 @@ var name: String {
 
 ### Variable Observers
 
+~~~swift
+var count = 0
+var value: Int {
+    willSet {
+        ++count
+    }
+    didSet {
+        print("\(count) \(value)")
+    }
+}
+~~~
+
 ## タプル
+
+~~~swift
+let value = ("hello", 123, 456)
+~~~
+
+~~~swift
+func demo() -> (Int, Float) {
+    return (789, 3.14)
+}
+~~~
 
 ## 演算子
 
