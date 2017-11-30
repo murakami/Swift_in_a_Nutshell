@@ -238,6 +238,12 @@ func demo() -> (Int, Float) {
 
 ## 文字と文字列
 
+~~~swift
+var str: String = "hello"
+var ch: Character = "A"
+let s = "Hello" + ", World"
+~~~
+
 ## 配列
 
 ## 辞書
