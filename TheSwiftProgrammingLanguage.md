@@ -246,6 +246,21 @@ let s = "Hello" + ", World"
 
 ## 配列
 
+~~~swift
+let array1 = Int[5]
+var array2 = [Int]()
+var array3 = [Int](count: 3, repeatedValue: 0)
+var array4: [Int] = [1, 2, 3, 4, 5]
+~~~
+
+~~~swift
+let n = array4[1]
+let array5 = array4[1...3]
+for n in array4 {
+    print(n)
+}
+~~~
+
 ## 辞書
 
 ## 関数
