@@ -263,6 +263,15 @@ for n in array4 {
 
 ## 辞書
 
+~~~swift
+var dict1 = [String: String]()
+let dict2: [String: String] = ["aaa":"AAA", "bbb":"BBB", "ccc":"CCC"]
+for (k, v) in dict2 {
+    print(k)
+    print(v)
+}
+~~~
+
 ## 関数
 
 ## クロージャ
