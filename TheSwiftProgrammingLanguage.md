@@ -274,6 +274,14 @@ for (k, v) in dict2 {
 
 ## 関数
 
+~~~swift
+func add(n: Int, o: Int) -> Int {
+    return n + o
+}
+
+let result = add(3, 5)
+~~~
+
 ## クロージャ
 
 ## オプショナル型
