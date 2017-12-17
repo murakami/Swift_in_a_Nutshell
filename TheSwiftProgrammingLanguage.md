@@ -293,8 +293,15 @@ let block = {
 let result = block(3, 5)
 ~~~
 
-
 ## オプショナル型
+
+~~~swift
+var strOpt: String?
+
+if let strConst = strOpt {
+    print(strConst)
+}
+~~~
 
 ## 制御構文
 
