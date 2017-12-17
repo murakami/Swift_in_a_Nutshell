@@ -284,6 +284,16 @@ let result = add(3, 5)
 
 ## クロージャ
 
+~~~swift
+let block = {
+    (n: Int, o: Int) -> Int in
+    return n + o
+}
+
+let result = block(3, 5)
+~~~
+
+
 ## オプショナル型
 
 ## 制御構文
