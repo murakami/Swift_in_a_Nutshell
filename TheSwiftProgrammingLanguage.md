@@ -401,6 +401,14 @@ let rect = Rect(x:1.0, y:2.0, width:10.0, height:20.0)
 
 ## 列挙型
 
+~~~swift
+enum TravelKind {
+    case First
+    case Business
+    case Economy
+}
+~~~
+
 ## アクセス制御
 
 ## 拡張
