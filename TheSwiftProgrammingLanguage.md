@@ -305,6 +305,45 @@ if let strConst = strOpt {
 
 ## 制御構文
 
+~~~swift
+for var n = 0; n < 10; n++ {
+    print("\(n)")
+}
+
+let array = ["Classic", "PowerBook", "MacBook"]
+for item in array {
+    print(item)
+}
+
+var n = 0
+while (n < 10) {
+    print("\(n)")
+    n++
+}
+
+var n = 0
+do {
+    print("\(n)")
+    n++
+} while (n < 10)
+
+if condition {
+}
+else if condition {
+}
+else {
+}
+
+switch expression {
+    case valueSequence:
+        statements
+    case valueSequence, valueSequence:
+        statements
+    default:
+        statements
+}
+~~~
+
 ## クラス
 
 ## 構造体
