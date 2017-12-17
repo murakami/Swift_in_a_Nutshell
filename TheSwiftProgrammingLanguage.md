@@ -379,6 +379,26 @@ let demo = Demo(123)
 
 ## 構造体
 
+~~~swift
+struct Rect {
+    var x = 0.0
+    var y = 0.0
+    var width = 0.0
+    var height = 0.0
+
+    func area() -> Double {
+        return width * height
+    }
+
+    mutating func resize(scale: Double) {
+        width *= scale
+        height *= scale
+    }
+}
+
+let rect = Rect(x:1.0, y:2.0, width:10.0, height:20.0)
+~~~
+
 ## 列挙型
 
 ## アクセス制御
