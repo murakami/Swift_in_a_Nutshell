@@ -275,11 +275,11 @@ for (k, v) in dict2 {
 ## 関数
 
 ~~~swift
-func add(n: Int, o: Int) -> Int {
+func sum(n: Int, o: Int) -> Int {
     return n + o
 }
 
-let result = add(3, 5)
+let result = sum(3, 5)
 ~~~
 
 ## クロージャ
@@ -345,6 +345,37 @@ switch expression {
 ~~~
 
 ## クラス
+
+~~~swift
+class Base {
+}
+
+class Demo: Base {
+    var instVal: Int = 0
+
+    var propVal: Int {
+        get {
+            return instVal
+        }
+        set(val) {
+            instVal = val
+        }
+    }
+
+    init(val: Int) {
+        self.instVal = val
+    }
+
+    deinit {
+    }
+
+    func sum(n: Int) -> Int {
+        return instVal + n
+    }
+}
+
+let demo = Demo(123)
+~~~
 
 ## 構造体
 
