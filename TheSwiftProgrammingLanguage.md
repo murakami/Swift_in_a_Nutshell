@@ -417,6 +417,22 @@ enum TravelKind {
 
 ## 拡張
 
+~~~swift
+extension String {
+    init(v: MyType) {
+        ...
+    }
+
+    var length: Int {
+        return self.characters.count
+    }
+
+    func dbgmsg() {
+        print(self)
+    }
+}
+~~~
+
 ## 型チェンジとキャスト
 
 ## プロトコル
