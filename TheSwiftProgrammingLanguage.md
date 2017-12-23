@@ -411,6 +411,10 @@ enum TravelKind {
 
 ## アクセス制御
 
+* public
+* internal
+* private
+
 ## 拡張
 
 ## 型チェンジとキャスト
