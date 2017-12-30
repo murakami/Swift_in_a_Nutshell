@@ -435,6 +435,37 @@ extension String {
 
 ## 型チェンジとキャスト
 
+~~~swift
+var array = [Any]()
+array.append(1)
+array.append(3.14)
+array.append("abcdefg")
+~~~
+
+~~~swift
+if s is String {
+    print("s is string.")
+}
+~~~
+
+as演算子はインスタンスをキャストする。
+
+~~~swift
+let t = s as String
+~~~
+
+as?演算子はキャストできない場合はnilを返す。なので、返す値はオプショナル型となる。
+
+~~~swift
+let t = s as? String
+~~~
+
+as!演算子はキャストできない場合は実行時エラーとなる。
+
+~~~swift
+let t = s as! String
+~~~
+
 ## プロトコル
 
 ## メモリ管理
