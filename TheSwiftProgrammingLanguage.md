@@ -515,6 +515,11 @@ func swap<T>(_ a: inout T, _ b: input T) {
 
 ## 演算子の多重定義
 
+~~~swift
+func + ([inout] left: Int, right: Int) -> Int {
+}
+~~~
+
 ## Ranges, Intervals, and Strides
 
 ## グローバル関数
