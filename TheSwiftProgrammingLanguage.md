@@ -505,6 +505,14 @@ print(s ?? "nil")
 
 ## 総称型
 
+~~~swift
+func swap<T>(_ a: inout T, _ b: input T) {
+    let temp = a
+    a = b
+    b = temp
+}
+~~~
+
 ## 演算子の多重定義
 
 ## Ranges, Intervals, and Strides
