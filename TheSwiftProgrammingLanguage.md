@@ -485,6 +485,24 @@ class Song : Playable {
 
 ## メモリ管理
 
+~~~swift
+var s: String? = nil
+do {
+    let t = "abcdefg"
+    s = t
+}
+print(s ?? "nil")
+~~~
+
+~~~swift
+weak var s: NSString? = nil
+do {
+    let t: NSString? = "abcdefg"
+    s = t
+}
+print(s ?? "nil")
+~~~
+
 ## 総称型
 
 ## 演算子の多重定義
