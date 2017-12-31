@@ -522,4 +522,25 @@ func + ([inout] left: Int, right: Int) -> Int {
 
 ## Ranges, Intervals, and Strides
 
+~~~swift
+A..<B    A<=x<B
+A...B    A<=x<=B
+~~~
+
+~~~swift
+var i = 1.1...2.2
+i.start
+i.end
+i.contains(1.6)
+~~~
+
+~~~swift
+for x in stride(from:0, to:20, by:2) {
+}
+~~~
+
 ## グローバル関数
+
+~~~swift
+advancedBy(n: Distance)
+~~~
