@@ -468,6 +468,21 @@ let t = s as! String
 
 ## プロトコル
 
+~~~swift
+protocol Playable {
+    func play()
+    func stop()
+}
+
+class Song : Playable {
+    func play() {
+    }
+
+    func stop() {
+    }
+}
+~~~
+
 ## メモリ管理
 
 ## 総称型
